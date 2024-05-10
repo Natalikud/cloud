@@ -1,0 +1,33 @@
+[
+  {
+    "model": "app.CloudUser",
+    "pk": 1,
+    "fields": {
+      "email": "Admin3@mail.ru",
+      "password": "gAAAAABmPbpcwq0jub1haCm-8P_2n_Af8FbpAsNfA1dEyLlRRUckIOturXvfvjceYsO_5Jdkf2qLZkyewMCGYYqaoo0OuAbsCA==",
+      "is_admin": true,
+      "key": "xjhh_W78-DE_nAB8NqXG3H2923v2eFWKtRyIYCW6cEM=",
+      "created": "2024-5-10",
+      "last_visit": "2024-5-10"
+    }
+  },
+  {
+    "model": "app.UserData",
+    "pk": 1,
+    "fields": {
+      "name": "Admin3",
+      "last_name": "Admin3",
+      "avatar": "",
+      "user": 1
+    }
+  },
+  {
+    "model": "app.UserSession",
+    "pk": 1,
+    "fields": {
+      "session_token": "",
+      "created": "2024-05-10",
+      "user": 1
+    }
+  }
+]
