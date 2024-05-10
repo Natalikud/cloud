@@ -100,8 +100,7 @@ ssh root@0.0.0.0
 
 , где 0.0.0.0 - ip-адрес созданного сервера.
 
-Далее по запросу вводим пароль и получаем root доступ к системе сервера:  
-![server_created](./readme_img/server_created.png)
+Далее по запросу вводим пароль и получаем root доступ к системе сервера:
 
 Создаем нового пользователя, чтоб с root правами ничего не "сломать":
 
@@ -157,7 +156,7 @@ git --version
 Устанавливаем остальные необходимые пакеты, запросит пароль от действующего пользователя ip, под которым мы работаем:
 
 ```bash
-sudo apt-get install python3 python3-venv python3-pip postgresql nginx
+sudo apt install python3 python3-venv python3-pip postgresql nginx
 ```
 
 проверяем активацию postgres, при установке он должен автоматически запуститься:
@@ -282,9 +281,7 @@ nano .env
 ```
 
 и прописываем переменные окружения. Пример:
-
-**TODO:ДОБАВИТЬ КАРТИНКУ ПОЗЖЕ**
-![server_created](./readme_img/server_created.png)
+![env](./readme_img/env.png)
 
 ALLOWED_HOSTS = 'указываем адрес ip с сайта reg.ru' или [*]
 
@@ -296,13 +293,15 @@ python manage.py migrate
 python manage.py loaddata loaddata.json
 ```
 
+![migrate](./readme_img/migrate.png)
+
 Если миграции не прошли - перепроверяем настройки!
 
 ## gunicorn
 
 Далее настраиваем gunicorn в соответствии с примером из записи вебинара:
 
-проверка wsgi (не надо)
+проверка wsgi (лишнее?)
 
 ```bash
 gunicorn backend.wsgi -b 0.0.0.0:8000
@@ -314,9 +313,9 @@ gunicorn backend.wsgi -b 0.0.0.0:8000
 sudo nano /etc/systemd/system/gunicorn.service
 ```
 
-Настройки на данном проекте:  
-**TODO:ДОБАВИТЬ КАРТИНКУ ПОЗЖЕ**
-![server_created](./readme_img/server_created.png)
+Настройки на данном проекте:
+
+![gunicorn](./readme_img/gunicorn.png)
 
 Проверка правильности настроек:
 
@@ -326,9 +325,9 @@ sudo systemctl enable gunicorn
 sudo systemctl status gunicorn
 ```
 
-Если все настройки прописаны верно - после ввода последней команды мы увидим, что gunicorn активен:  
-**TODO:ДОБАВИТЬ КАРТИНКУ ПОЗЖЕ**
-![server_created](./readme_img/server_created.png)
+Если все настройки прописаны верно - после ввода последней команды мы увидим, что gunicorn активен:
+
+![g_active](./readme_img/g_active.png)
 
 ## сборка проекта на локальной машине npm build
 
@@ -340,14 +339,14 @@ sudo systemctl status gunicorn
 Создадим новый файл, можно без расширения, имя выбираем самостоятельно:
 
 ```bash
-sudo nano /etc/nginx/sites-available/cloud
+sudo nano /etc/nginx/sites-available/mycloud
 ```
 
 прописываем настройки.
 
 Настройки на данном проекте:
-**TODO:ДОБАВИТЬ КАРТИНКУ ПОЗЖЕ**
-![server_created](./readme_img/server_created.png)  
+
+![nginx](./readme_img/nginx.png)  
 где также задается путь к изображениям - 'location /media/'.
 
 Cоздаем символическую ссылку на этот файл в другую директорию:
@@ -366,6 +365,8 @@ sudo nano /etc/nginx/nginx.conf
 client_max_body_size 5M;  
 client_body_buffer_size 5M;
 
+![nginx_conf](./readme_img/nginx_conf.png)
+
 Перезапускаем сервер nginx и проверяем статус:
 
 ```bash
@@ -373,6 +374,8 @@ sudo systemctl stop nginx
 sudo systemctl start nginx
 sudo systemctl status nginx
 ```
+
+![nginx_restart](./readme_img/ngnix_restart.png)
 
 Для корректировки и отладки настроек используем логи nginx:
 
@@ -382,10 +385,15 @@ sudo nano /var/log/nginx/error.log
 ```
 
 Если все сделали правильно - увидим статус 'active':
-**TODO:ДОБАВИТЬ КАРТИНКУ ПОЗЖЕ**
-![server_created](./readme_img/server_created.png)
 
-в лекции дополнительно
+![log](./readme_img/log.png)
+
+После всех, перечисленных выше, действий все должно заработать по ip адресу в адресной строке браузера
+
+ДАЛЕЕ ПОКА ПОЛУЧАЮ ОШИБКУ 404
+![404](./readme_img/404.png)
+
+в лекции дополнительно (не делала эти шаги)
 
 ```bash
 sudo ufw allow 'Nginx Full'
@@ -397,12 +405,4 @@ sudo ufw allow 'Nginx Full'
 python manage.py collectstatic
 ```
 
-## Запуск сервера
-
-```bash
-python manage.py runserver
-```
-
-После всех, перечисленных выше, действий все должно заработать по ip адресу в адресной строке браузера:  
-**TODO:ДОБАВИТЬ КАРТИНКУ ПОЗЖЕ**
-![server_created](./readme_img/server_created.png)
+После всех, перечисленных выше, действий все должно заработать по ip адресу в адресной строке браузера
