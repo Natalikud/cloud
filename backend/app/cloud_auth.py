@@ -3,19 +3,19 @@ from django.core.exceptions import ObjectDoesNotExist
 from .models import UserSession, UserFiles, UserData
 
 # Проверка токена сессии
-#def check_auth(request):
-#    try:
-#        session = UserSession.objects.get(session_token=request.headers['Authorization'])
-#        files = UserFiles.objects.filter(user=session.user)
-#        data = UserData.objects.get(user=session.user)
-#        return {'auth': True, 'user': session.user, 'files': files, 'data': data, 'session': session}
-#    except ObjectDoesNotExist:
-#        return {'auth': False}
-#    except (Exception, ) as err:
-#        return err
-
-
 def check_auth(request):
+    try:
+        session = UserSession.objects.get(session_token=request.headers['Authorization'])
+        files = UserFiles.objects.filter(user=session.user)
+        data = UserData.objects.get(user=session.user)
+        return {'auth': True, 'user': session.user, 'files': files, 'data': data, 'session': session}
+    except ObjectDoesNotExist:
+        return {'auth': False}
+    except (Exception, ) as err:
+        return err
+
+
+"""def check_auth(request):
     try:
         session_token = request.headers.get('Authorization')
         if not session_token:
@@ -28,7 +28,7 @@ def check_auth(request):
     except ObjectDoesNotExist:
         return {'auth': False}
     except Exception as err:
-        return {'error': str(err)}
+        return {'error': str(err)}"""
 
 
 # Проверка токена сессии админа

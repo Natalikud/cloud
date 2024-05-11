@@ -213,40 +213,40 @@ class File(APIView):
 
 # Формирование и отправка ссылки для скачивания(сохранения) файла сторонним пользователем
 
-#@api_view(['GET'])
-#def get_url(request, fid):
-#    @user_auth
-#    def _get_url(req, data):
-#        logger.info(f'Получение ссылки id:{data["user"].id}.')
-#        url = f"{data['user'].id}/{data['files'].get(id=fid).name}"
-#        key = os.getenv('URL_KEY')
-#        encrypt_url = encrypt(url, key)
-#        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
-#    return _get_url(request)
-
-
-
-#@api_view(['GET'])
-#@user_auth
-#def get_url(request, fid):
-#    try:
-#        # Получаем файл по указанному fid или возвращаем ошибку 404, если файл не найден
-#        file = get_object_or_404(request.user.files, id=fid)
-#        
-#        logger.info(f'Получение ссылки на файл id:{file.id}.')
-#        
-#        # Формируем URL для скачивания файла
-#        url = f"{request.user.id}/{file.name}"
-#        key = os.getenv('URL_KEY')
-#        encrypt_url = encrypt(url, key)
-#
-#        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
-#    except Exception as e:
-#        logger.error(f'Ошибка при получении ссылки на файл: {e}')
-#        return Response({'error': 'Произошла ошибка'}, status=500)
-
-
 @api_view(['GET'])
+def get_url(request, fid):
+    @user_auth
+    def _get_url(req, data):
+        logger.info(f'Получение ссылки id:{data["user"].id}.')
+        url = f"{data['user'].id}/{data['files'].get(id=fid).name}"
+        key = os.getenv('URL_KEY')
+        encrypt_url = encrypt(url, key)
+        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
+    return _get_url(request)
+
+
+
+"""@api_view(['GET'])
+@user_auth
+def get_url(request, fid):
+    try:
+        # Получаем файл по указанному fid или возвращаем ошибку 404, если файл не найден
+        file = get_object_or_404(request.user.files, id=fid)
+        
+        logger.info(f'Получение ссылки на файл id:{file.id}.')
+        
+        # Формируем URL для скачивания файла
+        url = f"{request.user.id}/{file.name}"
+        key = os.getenv('URL_KEY')
+        encrypt_url = encrypt(url, key)
+
+        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
+    except Exception as e:
+        logger.error(f'Ошибка при получении ссылки на файл: {e}')
+        return Response({'error': 'Произошла ошибка'}, status=500)"""
+
+
+"""@api_view(['GET'])
 @user_auth
 def get_url(request, fid):
     try:
@@ -273,7 +273,7 @@ def get_url(request, fid):
     except Exception as e:
         # Логируем другие ошибки, которые могут возникнуть
         logger.error(f'Ошибка при получении ссылки на файл: {e}')
-        return Response({'error': 'Произошла ошибка'}, status=500)
+        return Response({'error': 'Произошла ошибка'}, status=500)"""
 
 
 # Отправка файла для скачивания(сохранения) файла сторонним пользователем
@@ -445,21 +445,21 @@ class AdminFile(APIView):
 
 # Формирование и отправка ссылки для скачивания(сохранения) файла сторонним пользователем
 
-#@api_view(['GET'])
-#def get_url_admin(request, fid):
-#    @admin_auth
-#    def _get_url_admin(req):
-#        uid = UserFiles.objects.get(id=fid).user.id
-#        logger.info(f'Админ. Получение ссылки на файл из хранилища пользователя id:{uid}.')
-#        file = UserFiles.objects.get(id=fid)
-#        url = f"{file.user.id}/{file.name}"
-#        key = os.getenv('URL_KEY')
-#        encrypt_url = encrypt(url, key)
-#
-#        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
-#    return _get_url_admin(request)
-
 @api_view(['GET'])
+def get_url_admin(request, fid):
+    @admin_auth
+    def _get_url_admin(req):
+        uid = UserFiles.objects.get(id=fid).user.id
+        logger.info(f'Админ. Получение ссылки на файл из хранилища пользователя id:{uid}.')
+        file = UserFiles.objects.get(id=fid)
+        url = f"{file.user.id}/{file.name}"
+        key = os.getenv('URL_KEY')
+        encrypt_url = encrypt(url, key)
+
+        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
+    return _get_url_admin(request)
+
+"""@api_view(['GET'])
 @admin_auth
 def get_url_admin(request, fid):
     try:
@@ -480,4 +480,4 @@ def get_url_admin(request, fid):
         return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
     except Exception as e:
         logger.error(f'Ошибка при получении ссылки на файл: {e}')
-        return Response({'error': 'Произошла ошибка'}, status=500)
+        return Response({'error': 'Произошла ошибка'}, status=500)"""
