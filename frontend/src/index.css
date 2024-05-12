@@ -1,3 +1,4 @@
+/*по-другому импортировала модули tailwind, autoprefixer, postcss*/
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';

@@ -1,2 +1,35 @@
 2024-05-10 18:40:41,968 django.utils.autoreload INFO     C:\Users\User\Desktop\new_cloud\backend\backend\settings.py changed, reloading.
 2024-05-10 18:40:42,687 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-12 12:12:22,779 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-12 12:16:32,459 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-12 12:18:09,404 django.utils.autoreload INFO     C:\Users\User\Desktop\new_cloud\backend\backend\settings.py changed, reloading.
+2024-05-12 12:18:09,887 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-12 12:18:16,954 django.request WARNING  Not Found: /
+2024-05-12 12:18:16,954 django.request WARNING  Not Found: /
+2024-05-12 12:18:17,003 django.request WARNING  Not Found: /favicon.ico
+2024-05-12 12:18:17,003 django.request WARNING  Not Found: /favicon.ico
+2024-05-12 12:20:06,396 django.utils.autoreload INFO     C:\Users\User\Desktop\new_cloud\backend\backend\settings.py changed, reloading.
+2024-05-12 12:20:06,865 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-12 12:23:42,466 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-12 12:23:42,716 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-12 12:23:42,845 app.views INFO     Админ. Получение общих данных.
+2024-05-12 12:23:48,930 app.views INFO     Обратная аутентификация.
+2024-05-12 12:23:48,998 django.request WARNING  Forbidden: /api/gd
+2024-05-12 12:23:48,998 django.request WARNING  Forbidden: /api/gd
+2024-05-12 12:27:17,000 django.request WARNING  Forbidden: /api/gd
+2024-05-12 12:27:17,000 django.request WARNING  Forbidden: /api/gd
+2024-05-12 12:27:21,879 django.request WARNING  Forbidden: /api/gd
+2024-05-12 12:27:21,879 django.request WARNING  Forbidden: /api/gd
+2024-05-12 12:30:27,411 django.utils.autoreload INFO     C:\Users\User\Desktop\new_cloud\backend\backend\settings.py changed, reloading.
+2024-05-12 12:30:27,875 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-12 12:30:33,721 django.request WARNING  Not Found: /
+2024-05-12 12:30:33,721 django.request WARNING  Not Found: /
+2024-05-12 12:30:36,723 django.security.SuspiciousSession WARNING  Session data corrupted
+2024-05-12 12:30:36,782 django.security.SuspiciousSession WARNING  Session data corrupted
+2024-05-12 12:30:37,350 django.security.SuspiciousSession WARNING  Session data corrupted
+2024-05-12 12:30:37,400 django.security.SuspiciousSession WARNING  Session data corrupted
+2024-05-12 12:30:44,639 django.security.SuspiciousSession WARNING  Session data corrupted
+2024-05-12 12:32:31,932 django.utils.autoreload INFO     C:\Users\User\Desktop\new_cloud\backend\backend\settings.py changed, reloading.
+2024-05-12 12:32:32,426 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-12 12:33:19,987 django.utils.autoreload INFO     C:\Users\User\Desktop\new_cloud\backend\backend\settings.py changed, reloading.
+2024-05-12 12:33:20,451 django.utils.autoreload INFO     Watching for file changes with StatReloader

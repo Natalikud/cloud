@@ -19,6 +19,7 @@ SECRET_KEY = os.getenv('SECRET_KEY'),
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG'),
 
+#разрешены любые хосты *
 ALLOWED_HOSTS = ['*']
 
 
@@ -49,12 +50,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 CORS_ORIGIN_ALLOW_ALL = True
 
-# CORS_ORIGIN_WHITELIST = (
-#   'http://localhost:8000',
-# )
-
+#для локальной настройки фронтенда
+#закомментировать, если выкладываем репозиторий на облачный сервер
 #CORS_ORIGIN_WHITELIST = (
 #    'http://localhost:3000',
 #    )
@@ -81,18 +81,57 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 # Database
+#через переменные окружения (из файла .env)
+#на облачном сервере создала файд .env
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': os.getenv('DB_NAME'),
+#        'HOST': '127.0.0.1',
+#        'PORT': '5432',
+#        'USER': os.getenv('DB_USER'),
+#        'PASSWORD': os.getenv('DB_PASSWORD'),
+#    }
+#}
 
+#через переменные окружения
+#прописан хост базы данных, созданной на облачном сервере
+#остальные настройки подтянутся из файла .env на облачном сервере
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv('DB_NAME'),
-        'HOST': '127.0.0.1',
+        'HOST': '79.174.83.139',
         'PORT': '5432',
         'USER': os.getenv('DB_USER'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
     }
 }
 
+
+#база данных локальной разработки (из файла .env_example)
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'new_db2',
+#        'HOST': '127.0.0.1',
+#        'PORT': '5432',
+#        'USER': 'postgres',
+#        'PASSWORD': 'Natalikud',
+#    }
+#}
+
+#база данных облачного сервера (из файла .env_example)
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'new_db2',
+#        'HOST': '127.0.0.1',
+#        'PORT': '5432',
+#        'USER': 'natalikud',
+#        'PASSWORD': 'natalikud',
+#    }
+#}
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
@@ -121,8 +160,11 @@ USE_I18N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'backend', 'static')
 STATIC_URL = '/static/'
+
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'backend', 'media')
 MEDIA_URL = '/media/'
 
