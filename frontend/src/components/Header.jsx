@@ -25,9 +25,9 @@ export default function Header() {
         >
           <Link
             to={"/"}
-            className="ml-10 text-sm font-bold hover:text-gray-800"
+            className="ml-10 text-sky-50 font-bold hover:text-gray-400"
           >
-            ГЛАВНАЯ
+            Главная
           </Link>
           <div
             className="h-full mr-10 flex items-center"
@@ -37,10 +37,11 @@ export default function Header() {
               className="mr-5"
             >
               <div
-                className="w-[4vh] h-[4vh] border-2 rounded-full bg-slate-200 hover:border-gray-600"
+                className="w-[4vh] h-[3vh] hover:border-gray-600"
               >
                 <img
-                  className="w-full h-full object-cover rounded-full"
+                  title="Выйти"
+                  className="w-full h-full object-cover"
                   src={userState.avatar}
                   alt=""
                 />
@@ -55,7 +56,7 @@ export default function Header() {
                   type="submit"
                   className="text-sm font-bold hover:text-gray-800"
                 >
-                  ВЫХОД
+                  Выйти
                 </button>
               </Form>
             ) : (

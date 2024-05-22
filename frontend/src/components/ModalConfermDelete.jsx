@@ -39,7 +39,7 @@ export default function ModalConfermDelete({ state, request, hide, delFocus, del
           </p>
         ) : (
           <p>
-            Аккаунт с id: <strong>{state.onFocus}</strong> будет удален безвозвратно. Вы уверены?
+            Аккфунт с id: <strong>{state.onFocus}</strong> будет удален безвозвратно. Вы уверены?
           </p>
         )}
         <div

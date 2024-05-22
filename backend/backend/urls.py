@@ -3,11 +3,12 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.urls import path, include
 
-from app.views import login, logout, is_admin, registration, get_data, File, get_url, change_self_data, get_file
+from app.views import login, logout, is_admin, registration, get_data, File, get_url, change_self_data, get_file, download_view
 from backend.urls_admin import admin_patterns
 
 urlpatterns = [
     path('superadmin/', admin.site.urls),
+    path('download/<str:code>', get_file),
     path('api/li', login),
     path('api/lo', logout),
     path('api/ia', is_admin),

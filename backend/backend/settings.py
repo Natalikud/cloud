@@ -22,6 +22,7 @@ DEBUG = os.getenv('DEBUG'),
 #разрешены любые хосты *
 ALLOWED_HOSTS = ['*']
 
+os.environ['URL_KEY'] = '9bDm1ttCwxFtmUaHKrUVULpcN6seSkosCOdu8YFM8wk='
 
 # Application definition
 
@@ -100,11 +101,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME'),
-        'HOST': '127.0.0.1',
+        'NAME': 'cloud',
+        'HOST': 'localhost',
         'PORT': '5432',
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'USER': 'cloud',
+        'PASSWORD': 'cloud',
     }
 }
 
@@ -218,3 +219,8 @@ LOGGING = {
         }
     },
 }
+
+
+SESSION_COOKIE_SECURE = False
+CSRF_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = False

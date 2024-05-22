@@ -33,3 +33,850 @@
 2024-05-12 12:32:32,426 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-05-12 12:33:19,987 django.utils.autoreload INFO     C:\Users\User\Desktop\new_cloud\backend\backend\settings.py changed, reloading.
 2024-05-12 12:33:20,451 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 14:27:20,226 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 14:31:24,186 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 14:32:41,327 django.request WARNING  Not Found: /
+2024-05-21 14:32:41,327 django.request WARNING  Not Found: /
+2024-05-21 14:32:41,461 django.request WARNING  Not Found: /favicon.ico
+2024-05-21 14:32:41,461 django.request WARNING  Not Found: /favicon.ico
+2024-05-21 14:33:35,630 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 15:55:43,268 django.request WARNING  Not Found: /
+2024-05-21 15:55:43,268 django.request WARNING  Not Found: /
+2024-05-21 16:10:45,393 django.request WARNING  Not Found: /
+2024-05-21 16:10:45,393 django.request WARNING  Not Found: /
+2024-05-21 16:26:03,630 django.request WARNING  Not Found: /.env
+2024-05-21 16:26:03,630 django.request WARNING  Not Found: /.env
+2024-05-21 16:26:03,727 django.request WARNING  Not Found: /
+2024-05-21 16:26:03,727 django.request WARNING  Not Found: /
+2024-05-21 16:50:37,023 django.request WARNING  Not Found: /cgi-bin/luci/;stok=/locale
+2024-05-21 16:50:37,023 django.request WARNING  Not Found: /cgi-bin/luci/;stok=/locale
+2024-05-21 16:57:40,882 django.request WARNING  Not Found: /
+2024-05-21 16:57:40,882 django.request WARNING  Not Found: /
+2024-05-21 17:16:30,026 django.request WARNING  Not Found: /
+2024-05-21 17:16:30,026 django.request WARNING  Not Found: /
+2024-05-21 17:23:12,273 django.request WARNING  Not Found: /
+2024-05-21 17:23:12,273 django.request WARNING  Not Found: /
+2024-05-21 17:32:17,437 django.request WARNING  Not Found: /
+2024-05-21 17:32:17,437 django.request WARNING  Not Found: /
+2024-05-21 17:35:39,503 django.request WARNING  Not Found: /
+2024-05-21 17:35:39,503 django.request WARNING  Not Found: /
+2024-05-21 17:35:41,411 django.request WARNING  Not Found: /
+2024-05-21 17:35:41,411 django.request WARNING  Not Found: /
+2024-05-21 17:44:16,818 django.request WARNING  Not Found: /
+2024-05-21 17:44:16,818 django.request WARNING  Not Found: /
+2024-05-21 17:45:53,137 django.request WARNING  Not Found: /
+2024-05-21 17:45:53,137 django.request WARNING  Not Found: /
+2024-05-21 17:56:42,438 django.request WARNING  Not Found: /aaa9
+2024-05-21 17:56:42,438 django.request WARNING  Not Found: /aaa9
+2024-05-21 17:56:46,185 django.request WARNING  Not Found: /aab8
+2024-05-21 17:56:46,185 django.request WARNING  Not Found: /aab8
+2024-05-21 17:56:51,661 django.request WARNING  Not Found: /
+2024-05-21 17:56:51,661 django.request WARNING  Not Found: /
+2024-05-21 18:12:39,444 django.request WARNING  Not Found: /restore.php
+2024-05-21 18:12:39,444 django.request WARNING  Not Found: /restore.php
+2024-05-21 18:42:02,209 django.request WARNING  Not Found: /restore.php
+2024-05-21 18:42:02,209 django.request WARNING  Not Found: /restore.php
+2024-05-21 19:35:16,540 django.request WARNING  Not Found: /
+2024-05-21 19:35:16,540 django.request WARNING  Not Found: /
+2024-05-21 19:39:51,465 django.request WARNING  Not Found: /restore.php
+2024-05-21 19:39:51,465 django.request WARNING  Not Found: /restore.php
+2024-05-21 19:50:03,273 django.request WARNING  Not Found: /
+2024-05-21 19:50:03,273 django.request WARNING  Not Found: /
+2024-05-21 20:18:38,560 django.request WARNING  Not Found: /
+2024-05-21 20:18:38,560 django.request WARNING  Not Found: /
+2024-05-21 20:18:39,380 django.request WARNING  Not Found: /
+2024-05-21 20:18:39,380 django.request WARNING  Not Found: /
+2024-05-21 20:50:45,872 django.request WARNING  Not Found: /
+2024-05-21 20:50:45,872 django.request WARNING  Not Found: /
+2024-05-21 21:20:28,885 django.request WARNING  Not Found: /
+2024-05-21 21:20:28,885 django.request WARNING  Not Found: /
+2024-05-21 21:35:01,908 django.request WARNING  Not Found: /restore.php
+2024-05-21 21:35:01,908 django.request WARNING  Not Found: /restore.php
+2024-05-21 21:46:59,348 django.request WARNING  Not Found: /
+2024-05-21 21:46:59,348 django.request WARNING  Not Found: /
+2024-05-21 22:32:15,887 django.request WARNING  Not Found: /
+2024-05-21 22:32:15,887 django.request WARNING  Not Found: /
+2024-05-21 22:38:25,996 django.request WARNING  Not Found: /
+2024-05-21 22:38:25,996 django.request WARNING  Not Found: /
+2024-05-21 23:34:08,947 django.request WARNING  Not Found: /
+2024-05-21 23:34:08,947 django.request WARNING  Not Found: /
+2024-05-22 00:02:18,747 django.request WARNING  Not Found: /
+2024-05-22 00:02:18,747 django.request WARNING  Not Found: /
+2024-05-22 00:14:42,843 django.request WARNING  Not Found: /
+2024-05-22 00:14:42,843 django.request WARNING  Not Found: /
+2024-05-22 00:34:56,491 django.request WARNING  Not Found: /
+2024-05-22 00:34:56,491 django.request WARNING  Not Found: /
+2024-05-22 00:35:22,068 django.request WARNING  Forbidden: /api/gd
+2024-05-22 00:35:22,068 django.request WARNING  Forbidden: /api/gd
+2024-05-22 00:37:02,005 app.views INFO     Регистрация нового аккаунта.
+2024-05-22 00:37:03,480 django.request WARNING  Forbidden: /api/gd
+2024-05-22 00:37:03,480 django.request WARNING  Forbidden: /api/gd
+2024-05-22 00:37:07,662 app.views INFO     Аутентификация.
+2024-05-22 00:37:10,641 app.views INFO     Аутентификация.
+2024-05-22 00:37:10,794 django.request WARNING  Forbidden: /api/gd
+2024-05-22 00:37:10,794 django.request WARNING  Forbidden: /api/gd
+2024-05-22 00:37:12,257 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 00:37:17,975 django.request WARNING  Not Found: /user
+2024-05-22 00:37:17,975 django.request WARNING  Not Found: /user
+2024-05-22 00:37:21,984 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 00:37:54,269 app.views INFO     Загрузка файла на сервер id:1.
+2024-05-22 00:38:00,476 app.views INFO     Получение ссылки id:1.
+2024-05-22 00:38:00,479 django.request ERROR    Internal Server Error: /api/gu/1
+2024-05-22 00:38:00,479 django.request ERROR    Internal Server Error: /api/gu/1
+2024-05-22 00:38:28,552 django.request WARNING  Not Found: /
+2024-05-22 00:38:28,552 django.request WARNING  Not Found: /
+2024-05-22 00:39:25,715 app.views INFO     Удаление файла id:1
+2024-05-22 00:39:34,000 app.views INFO     Загрузка файла на сервер id:1.
+2024-05-22 00:39:48,718 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 00:39:51,147 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 00:40:06,487 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 00:43:02,584 django.request WARNING  Not Found: /
+2024-05-22 00:43:02,584 django.request WARNING  Not Found: /
+2024-05-22 00:52:33,576 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 00:52:36,062 django.request WARNING  Not Found: /user
+2024-05-22 00:52:36,062 django.request WARNING  Not Found: /user
+2024-05-22 00:52:43,579 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 00:52:47,483 app.views INFO     Сохранение файла на клиенте id:1
+2024-05-22 00:52:52,125 app.views INFO     Получение ссылки id:1.
+2024-05-22 00:53:09,250 django.request WARNING  Not Found: /download/gAAAAABmTRe0dntpKrH3StHgOsjCCN1R9xBE89FyufTfu2OfLkZNCj3PGKcotExt39gyxwG4omXBZNIUGurKV2JcITxnkczDag==
+2024-05-22 00:53:09,250 django.request WARNING  Not Found: /download/gAAAAABmTRe0dntpKrH3StHgOsjCCN1R9xBE89FyufTfu2OfLkZNCj3PGKcotExt39gyxwG4omXBZNIUGurKV2JcITxnkczDag==
+2024-05-22 00:53:15,425 app.views INFO     Сохранение файла по ссылке.
+2024-05-22 01:00:21,756 django.request WARNING  Not Found: /
+2024-05-22 01:00:21,756 django.request WARNING  Not Found: /
+2024-05-22 01:14:05,452 django.request WARNING  Not Found: /user
+2024-05-22 01:14:05,452 django.request WARNING  Not Found: /user
+2024-05-22 01:18:43,865 django.request WARNING  Not Found: /
+2024-05-22 01:18:43,865 django.request WARNING  Not Found: /
+2024-05-22 01:18:50,991 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 01:18:51,152 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 01:20:43,786 django.request WARNING  Not Found: /
+2024-05-22 01:20:43,786 django.request WARNING  Not Found: /
+2024-05-22 01:25:40,537 django.request WARNING  Not Found: /
+2024-05-22 01:25:40,537 django.request WARNING  Not Found: /
+2024-05-22 01:51:25,840 django.request WARNING  Not Found: /
+2024-05-22 01:51:25,840 django.request WARNING  Not Found: /
+2024-05-22 01:51:31,969 django.request WARNING  Not Found: /a/
+2024-05-22 01:51:31,969 django.request WARNING  Not Found: /a/
+2024-05-22 01:51:41,201 django.request WARNING  Not Found: /api/
+2024-05-22 01:51:41,201 django.request WARNING  Not Found: /api/
+2024-05-22 01:55:22,223 django.request WARNING  Not Found: /a/
+2024-05-22 01:55:22,223 django.request WARNING  Not Found: /a/
+2024-05-22 01:57:35,209 django.request WARNING  Not Found: /a/api/gu/
+2024-05-22 01:57:35,209 django.request WARNING  Not Found: /a/api/gu/
+2024-05-22 01:57:38,570 django.request WARNING  Not Found: /a/api/gu/
+2024-05-22 01:57:38,570 django.request WARNING  Not Found: /a/api/gu/
+2024-05-22 01:57:44,379 django.request WARNING  Not Found: /a/api/
+2024-05-22 01:57:44,379 django.request WARNING  Not Found: /a/api/
+2024-05-22 01:57:46,278 django.request WARNING  Not Found: /a/
+2024-05-22 01:57:46,278 django.request WARNING  Not Found: /a/
+2024-05-22 01:57:57,176 django.request WARNING  Not Found: /a/api/
+2024-05-22 01:57:57,176 django.request WARNING  Not Found: /a/api/
+2024-05-22 01:58:09,582 django.request WARNING  Not Found: /a/f/1
+2024-05-22 01:58:09,582 django.request WARNING  Not Found: /a/f/1
+2024-05-22 02:00:11,171 django.request WARNING  Not Found: /a/f/1
+2024-05-22 02:00:11,171 django.request WARNING  Not Found: /a/f/1
+2024-05-22 02:02:32,623 django.request WARNING  Not Found: /api/
+2024-05-22 02:02:32,623 django.request WARNING  Not Found: /api/
+2024-05-22 02:08:47,529 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:08:47,529 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:08,545 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:08,545 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:08,628 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:08,628 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:08,709 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:08,709 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:08,784 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:08,784 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:08,862 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:08,862 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:12,436 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:12,436 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:12,510 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:12,510 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:12,587 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:12,587 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:12,662 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:12,662 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:12,756 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:12,756 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:14,757 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:14,757 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:20,747 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:20,747 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:23,911 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:23,911 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:23,993 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:23,993 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:24,070 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:24,070 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:24,149 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:24,149 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:24,229 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:24,229 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:37,323 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:37,323 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:37,410 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:37,410 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:37,489 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:37,489 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:37,566 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:37,566 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:37,645 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:37,645 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:42,445 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:42,445 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:09:42,524 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:42,524 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:42,603 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:42,603 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:09:42,687 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:42,687 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:42,766 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:09:42,766 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:11:17,944 django.request WARNING  Method Not Allowed: /api/li
+2024-05-22 02:11:17,944 django.request WARNING  Method Not Allowed: /api/li
+2024-05-22 02:11:32,473 django.request WARNING  Method Not Allowed: /api/li
+2024-05-22 02:11:32,473 django.request WARNING  Method Not Allowed: /api/li
+2024-05-22 02:12:39,372 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:12:39,372 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:12:41,595 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:12:41,595 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:19,857 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:19,857 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:32,014 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:32,014 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:32,099 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:32,099 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:32,214 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:32,214 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:32,294 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:32,294 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:32,489 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:32,489 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:34,120 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,120 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,198 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,198 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,298 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,298 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,297 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,297 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,393 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,393 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,392 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:34,392 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:34,477 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,477 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,554 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,554 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,619 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,619 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:13:34,700 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,700 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,779 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,779 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:13:34,858 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:34,858 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:34,935 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:13:34,935 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:45,119 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:45,119 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:53,872 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:14:53,872 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:14:53,958 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:53,958 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:54,043 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:54,043 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:54,122 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:54,122 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:54,202 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:54,202 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:57,501 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:14:57,501 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:14:57,580 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:57,580 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:57,663 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:57,663 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:14:57,741 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:57,741 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:57,825 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:14:57,825 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:15:10,179 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:15:10,179 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:15:18,538 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:15:18,538 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:15:32,506 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:15:32,506 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:17:06,952 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:17:06,952 django.request WARNING  Forbidden: /api/reg
+2024-05-22 02:17:13,900 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:13,900 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:19,457 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:19,457 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:26,587 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:17:26,587 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:17:26,667 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:26,667 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:26,748 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:26,748 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:26,824 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:26,824 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:26,914 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:26,914 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:28,109 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:17:28,109 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:17:28,188 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:28,188 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:28,282 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:28,282 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:28,360 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:28,360 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:28,452 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:28,452 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:29,210 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:17:29,210 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:17:29,291 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:29,291 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:29,369 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:29,369 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:17:29,455 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:29,455 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:29,531 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:29,531 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:31,327 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:31,327 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:32,588 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:17:32,588 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:19:54,591 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:19:54,591 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:21:36,205 django.request WARNING  Not Found: /user/
+2024-05-22 02:21:36,205 django.request WARNING  Not Found: /user/
+2024-05-22 02:21:47,809 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:21:47,809 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:22:46,857 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:22:46,857 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:26:08,943 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:26:08,943 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:26:13,620 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 02:26:13,620 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 02:31:14,456 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:14,456 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:20,507 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:20,507 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:24,684 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:24,684 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:26,788 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:26,788 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:30,911 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:30,911 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:36,292 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:31:36,292 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:31:36,370 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:31:36,370 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:31:36,454 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:31:36,454 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:31:36,534 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:36,534 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:36,620 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:31:36,620 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:33:35,377 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:33:35,377 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:33:42,285 django.request ERROR    Internal Server Error: /api/ia
+2024-05-22 02:33:42,285 django.request ERROR    Internal Server Error: /api/ia
+2024-05-22 02:34:06,854 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:34:06,854 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:34:51,896 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:34:51,896 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:08,727 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:08,727 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:13,179 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:13,179 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:15,041 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:38:15,041 django.request WARNING  Forbidden: /api/li
+2024-05-22 02:38:15,122 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:38:15,122 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:38:15,200 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:38:15,200 django.request WARNING  Forbidden: /api/ia
+2024-05-22 02:38:15,275 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:15,275 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:15,355 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:15,355 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:34,948 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:34,948 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:39,778 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:38:39,778 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:39:40,745 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: '89.111.175.10:3000'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.111.175.10:3000'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+2024-05-22 02:39:40,857 django.request WARNING  Bad Request: /superadmin/
+2024-05-22 02:39:40,857 django.request WARNING  Bad Request: /superadmin/
+2024-05-22 02:40:41,802 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: '89.111.175.10'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.111.175.10'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+2024-05-22 02:40:41,823 django.request WARNING  Bad Request: /api/gd
+2024-05-22 02:40:41,823 django.request WARNING  Bad Request: /api/gd
+2024-05-22 02:40:45,609 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: '89.111.175.10'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.111.175.10'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+2024-05-22 02:40:45,715 django.request WARNING  Bad Request: /api/gd
+2024-05-22 02:40:45,715 django.request WARNING  Bad Request: /api/gd
+2024-05-22 02:40:48,586 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: '89.111.175.10'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.111.175.10'. You may need to add '89.111.175.10' to ALLOWED_HOSTS.
+2024-05-22 02:40:48,702 django.request WARNING  Bad Request: /api/gd
+2024-05-22 02:40:48,702 django.request WARNING  Bad Request: /api/gd
+2024-05-22 02:41:03,872 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:41:03,872 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:41:05,311 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:41:05,311 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:43:18,294 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:43:18,294 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:43:21,102 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:43:21,102 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:43:23,152 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:43:23,152 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:44:26,313 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 02:44:26,313 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 02:44:34,284 django.request WARNING  Not Found: /api/gd/1
+2024-05-22 02:44:34,284 django.request WARNING  Not Found: /api/gd/1
+2024-05-22 02:44:45,267 django.request ERROR    Internal Server Error: /api/f/1
+2024-05-22 02:44:45,267 django.request ERROR    Internal Server Error: /api/f/1
+2024-05-22 02:45:02,111 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:45:02,111 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:45:06,798 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:45:06,798 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:45:54,430 django.request WARNING  Not Found: /user/
+2024-05-22 02:45:54,430 django.request WARNING  Not Found: /user/
+2024-05-22 02:46:23,410 django.request WARNING  Not Found: /user/
+2024-05-22 02:46:23,410 django.request WARNING  Not Found: /user/
+2024-05-22 02:46:39,037 django.request WARNING  Not Found: /user/
+2024-05-22 02:46:39,037 django.request WARNING  Not Found: /user/
+2024-05-22 02:46:41,350 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:46:41,350 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:46:48,826 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:46:48,826 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:48:41,957 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:48:41,957 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:48:43,696 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:48:43,696 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:48:46,061 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:48:46,061 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:51:03,831 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:51:03,831 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:51:06,025 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:51:06,025 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:51:12,838 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 02:51:12,838 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 02:56:22,316 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:56:22,316 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:56:23,514 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:56:23,514 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:56:35,632 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:56:35,632 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:57:46,873 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:57:46,873 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:57:48,724 django.request WARNING  Forbidden: /api/gd
+2024-05-22 02:57:48,724 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:00:07,887 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:00:07,887 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:00:14,434 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:00:14,434 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:00:54,437 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:00:54,437 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:01:01,987 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:01:01,987 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:15:35,372 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:15:35,372 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:15:57,981 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 03:15:57,981 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 03:16:08,536 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:16:08,536 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:31:59,263 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:31:59,263 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:36:23,671 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:36:23,671 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:36:37,887 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 03:36:37,887 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 03:40:32,968 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:40:32,968 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:40:38,550 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 03:40:38,550 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 03:41:16,260 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:41:16,260 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:41:35,927 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:41:35,927 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:44:32,968 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:44:32,968 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:55:18,371 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:55:18,371 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:56:05,740 django.request WARNING  Forbidden: /api/gd
+2024-05-22 03:56:05,740 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:02:12,716 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:02:12,716 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:03:51,230 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:03:51,230 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:04:18,013 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 04:04:18,013 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 04:04:24,531 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 04:04:24,531 django.request ERROR    Internal Server Error: /api/gd
+2024-05-22 04:06:14,280 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:14,280 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:30,168 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:30,168 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:31,792 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:31,792 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:32,554 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:32,554 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:32,711 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:32,711 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:32,889 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:32,889 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,081 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,081 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,256 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,256 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,413 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,413 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,581 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,581 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,770 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,770 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,932 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:33,932 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,077 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,077 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,253 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,253 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,427 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,427 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,586 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,586 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,747 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,747 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,921 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:34,921 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:35,114 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:35,114 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:35,251 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:35,251 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:38,555 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:38,555 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:39,339 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:39,339 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:39,789 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:39,789 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:39,952 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:39,952 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,125 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,125 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,313 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,313 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,490 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,490 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,683 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,683 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,847 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:06:40,847 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:07:30,369 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:07:30,369 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:10:42,657 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:10:42,657 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:15:30,595 django.request WARNING  Not Found: /
+2024-05-22 04:15:30,595 django.request WARNING  Not Found: /
+2024-05-22 04:31:18,362 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:31:18,629 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:31:23,631 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:31:23,795 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:31:30,279 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:31:30,279 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:31:32,668 app.views INFO     Аутентификация.
+2024-05-22 04:31:33,006 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:31:48,027 app.views INFO     Сохранение файла на клиенте id:1
+2024-05-22 04:31:51,594 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:33:47,612 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:33:47,941 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:36:40,452 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:36:40,452 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:38:50,721 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:38:50,721 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:38:53,780 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:38:53,780 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:39:01,128 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:39:01,415 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:39:23,275 app.views INFO     Загрузка файла на сервер id:1.
+2024-05-22 04:39:35,277 app.views INFO     Удаление файла id:1
+2024-05-22 04:39:41,982 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:39:42,215 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:39:50,828 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:39:52,855 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:40:58,217 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:40:58,525 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:50:59,257 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:50:59,257 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:51:02,274 app.views INFO     Аутентификация.
+2024-05-22 04:51:02,720 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:51:06,088 app.views INFO     Сохранение файла на клиенте id:1
+2024-05-22 04:51:12,908 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:51:33,574 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:51:40,962 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:52:03,658 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:52:03,896 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:52:06,819 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:53:00,669 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:53:45,182 django.request WARNING  Forbidden: /api/ia
+2024-05-22 04:53:45,182 django.request WARNING  Forbidden: /api/ia
+2024-05-22 04:53:45,286 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:53:45,286 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:53:45,359 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:53:45,359 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:53:49,028 app.views INFO     Аутентификация.
+2024-05-22 04:53:49,376 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:53:51,173 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:54:24,387 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:26,367 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:28,461 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:28,615 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:30,430 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:30,579 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:30,647 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:30,793 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:36,401 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:36,661 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:36,842 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:40,543 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:41,467 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:41,613 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:49,230 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:49,598 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:52,483 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:53,655 app.views INFO     Обратная аутентификация.
+2024-05-22 04:54:53,730 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:54:53,730 django.request WARNING  Forbidden: /api/gd
+2024-05-22 04:54:56,430 app.views INFO     Аутентификация.
+2024-05-22 04:54:56,680 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:58,254 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:54:58,406 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:07,911 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:08,064 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:10,699 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:10,845 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:10,913 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:11,061 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:12,923 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:13,073 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:55:18,012 app.views INFO     Сохранение файла на клиенте id:1
+2024-05-22 04:55:22,029 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:57:27,826 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:57:27,987 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:58:08,258 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:58:50,415 django.request WARNING  Not Found: /
+2024-05-22 04:58:50,415 django.request WARNING  Not Found: /
+2024-05-22 04:58:58,285 django.request WARNING  Not Found: /
+2024-05-22 04:58:58,285 django.request WARNING  Not Found: /
+2024-05-22 04:58:59,152 django.request WARNING  Not Found: /
+2024-05-22 04:58:59,152 django.request WARNING  Not Found: /
+2024-05-22 04:59:50,221 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:59:50,377 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 04:59:52,429 app.views INFO     Получение ссылки id:1.
+2024-05-22 04:59:56,986 django.request WARNING  Not Found: /download/gAAAAABmTVGYGK4ughvgh6C9R6qgYQGuWzrcgpNmootrOLyPfZTeTqxVrOWt9Er66MxOk8oaJpRIZNPvRaDdqHE3Sboag9xrMA==
+2024-05-22 04:59:56,986 django.request WARNING  Not Found: /download/gAAAAABmTVGYGK4ughvgh6C9R6qgYQGuWzrcgpNmootrOLyPfZTeTqxVrOWt9Er66MxOk8oaJpRIZNPvRaDdqHE3Sboag9xrMA==
+2024-05-22 05:00:26,915 django.request WARNING  Not Found: /download/gAAAAABmTVGYGK4ughvgh6C9R6qgYQGuWzrcgpNmootrOLyPfZTeTqxVrOWt9Er66MxOk8oaJpRIZNPvRaDdqHE3Sboag9xrMA==
+2024-05-22 05:00:26,915 django.request WARNING  Not Found: /download/gAAAAABmTVGYGK4ughvgh6C9R6qgYQGuWzrcgpNmootrOLyPfZTeTqxVrOWt9Er66MxOk8oaJpRIZNPvRaDdqHE3Sboag9xrMA==
+2024-05-22 05:00:58,738 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:00:58,896 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:01:11,886 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:01:12,049 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:01:15,369 app.views INFO     Обратная аутентификация.
+2024-05-22 05:01:15,443 django.request WARNING  Forbidden: /api/gd
+2024-05-22 05:01:15,443 django.request WARNING  Forbidden: /api/gd
+2024-05-22 05:01:18,551 django.request WARNING  Forbidden: /api/gd
+2024-05-22 05:01:18,551 django.request WARNING  Forbidden: /api/gd
+2024-05-22 05:01:20,360 app.views INFO     Аутентификация.
+2024-05-22 05:01:20,655 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:01:22,535 app.views INFO     Получение ссылки id:1.
+2024-05-22 05:01:27,919 django.request WARNING  Not Found: /download/gAAAAABmTVHykAn6kHYFWYRIkYvudWNFVCyuZeFfxlaCZ8URouQrd6BTGsPxePXo6GuOW9Kpgq4xPL2RiCspYLz3g9q8K8h9wQ==
+2024-05-22 05:01:27,919 django.request WARNING  Not Found: /download/gAAAAABmTVHykAn6kHYFWYRIkYvudWNFVCyuZeFfxlaCZ8URouQrd6BTGsPxePXo6GuOW9Kpgq4xPL2RiCspYLz3g9q8K8h9wQ==
+2024-05-22 05:24:36,061 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:24:37,098 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:24:37,944 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:24:41,626 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:24:41,773 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:26:18,627 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:26:18,864 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:26:20,876 app.views INFO     Получение ссылки id:1.
+2024-05-22 05:26:38,413 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:26:38,413 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:41:18,054 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:41:18,054 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:41:21,206 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:41:21,206 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:41:22,855 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:41:22,855 django.request WARNING  Not Found: /download/gAAAAABmTVfM6Qu0sNDLi-MGn-ZDNYPUT3vxS-h8ERRu1UeHP1rwz5jPGvZeYYcoD2_ciVTB0Lb_Z21InVPkTzwJ5BTA_aGKfQ==
+2024-05-22 05:42:07,121 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:42:07,285 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:42:10,067 app.views INFO     Получение ссылки id:1.
+2024-05-22 05:42:13,811 django.request WARNING  Not Found: /download/gAAAAABmTVuCSIfVJqHKiA2zt9NXwHE-c31UEPcxEAKIsRhNEg1xsmIVE46lZeZzjeGwvoFzJQaUP1UDNyHooDzNJgC_0NFXJw==
+2024-05-22 05:42:13,811 django.request WARNING  Not Found: /download/gAAAAABmTVuCSIfVJqHKiA2zt9NXwHE-c31UEPcxEAKIsRhNEg1xsmIVE46lZeZzjeGwvoFzJQaUP1UDNyHooDzNJgC_0NFXJw==
+2024-05-22 05:50:20,835 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:50:20,999 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 05:50:23,075 app.views INFO     Получение ссылки id:1.
+2024-05-22 05:50:44,675 django.request WARNING  Not Found: /download/gAAAAABmTV1v_BY28PLOhHx8ITza4rjA5ygUh4r25GZa_RvVYvjP7PuJ5lM9tmuvMcHqHKd888UE5MGXPQuJA6QHwAH64mlS3g==
+2024-05-22 05:50:44,675 django.request WARNING  Not Found: /download/gAAAAABmTV1v_BY28PLOhHx8ITza4rjA5ygUh4r25GZa_RvVYvjP7PuJ5lM9tmuvMcHqHKd888UE5MGXPQuJA6QHwAH64mlS3g==
+2024-05-22 06:03:14,659 django.request WARNING  Not Found: /download/gAAAAABmTV1v_BY28PLOhHx8ITza4rjA5ygUh4r25GZa_RvVYvjP7PuJ5lM9tmuvMcHqHKd888UE5MGXPQuJA6QHwAH64mlS3g==
+2024-05-22 06:03:14,659 django.request WARNING  Not Found: /download/gAAAAABmTV1v_BY28PLOhHx8ITza4rjA5ygUh4r25GZa_RvVYvjP7PuJ5lM9tmuvMcHqHKd888UE5MGXPQuJA6QHwAH64mlS3g==
+2024-05-22 06:05:31,472 app.views INFO     Сохранение файла на клиенте id:1
+2024-05-22 06:05:45,347 app.views INFO     Сохранение файла на клиенте id:1
+2024-05-22 06:05:56,304 app.views INFO     Получение ссылки id:1.
+2024-05-22 06:05:59,874 django.request WARNING  Not Found: /download/gAAAAABmTWEUZgxUnxC06EVm_b4v0uyVyo70cYKy-ovx39RtZfdKGvuZEFK8OHmwAXf1W5-ZC5nhxx09U4o7EljSdXKt4gKG8Q==
+2024-05-22 06:05:59,874 django.request WARNING  Not Found: /download/gAAAAABmTWEUZgxUnxC06EVm_b4v0uyVyo70cYKy-ovx39RtZfdKGvuZEFK8OHmwAXf1W5-ZC5nhxx09U4o7EljSdXKt4gKG8Q==
+2024-05-22 06:08:33,420 django.request WARNING  Forbidden: /api/gd
+2024-05-22 06:08:33,420 django.request WARNING  Forbidden: /api/gd
+2024-05-22 06:09:13,804 django.request WARNING  Forbidden: /api/gd
+2024-05-22 06:09:13,804 django.request WARNING  Forbidden: /api/gd
+2024-05-22 06:17:23,013 django.request ERROR    Internal Server Error: /download/gAAAAABmTWEUZgxUnxC06EVm_b4v0uyVyo70cYKy-ovx39RtZfdKGvuZEFK8OHmwAXf1W5-ZC5nhxx09U4o7EljSdXKt4gKG8Q==
+Traceback (most recent call last):
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/cloud/backend/app/views.py", line 234, in download_view
+    return get_file(request, code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 391, in initialize_request
+    return Request(
+           ^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/request.py", line 154, in __init__
+    assert isinstance(request, HttpRequest), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The `request` argument must be an instance of `django.http.HttpRequest`, not `rest_framework.request.Request`.
+2024-05-22 06:17:23,013 django.request ERROR    Internal Server Error: /download/gAAAAABmTWEUZgxUnxC06EVm_b4v0uyVyo70cYKy-ovx39RtZfdKGvuZEFK8OHmwAXf1W5-ZC5nhxx09U4o7EljSdXKt4gKG8Q==
+Traceback (most recent call last):
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/cloud/backend/app/views.py", line 234, in download_view
+    return get_file(request, code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/views.py", line 391, in initialize_request
+    return Request(
+           ^^^^^^^^
+  File "/home/proj/.env/lib/python3.12/site-packages/rest_framework/request.py", line 154, in __init__
+    assert isinstance(request, HttpRequest), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The `request` argument must be an instance of `django.http.HttpRequest`, not `rest_framework.request.Request`.
+2024-05-22 06:21:12,871 app.views INFO     Сохранение файла по ссылке.
+2024-05-22 06:21:20,435 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 06:21:20,762 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 06:21:26,787 app.views INFO     Получение ссылки id:1.
+2024-05-22 06:21:31,691 app.views INFO     Сохранение файла по ссылке.
+2024-05-22 06:40:56,929 django.request WARNING  Forbidden: /api/gd
+2024-05-22 06:40:56,929 django.request WARNING  Forbidden: /api/gd
+2024-05-22 06:40:59,803 app.views INFO     Аутентификация.
+2024-05-22 06:41:00,163 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 06:52:00,098 app.views INFO     Запрос данных своего аккаунта id:1
+2024-05-22 06:52:00,352 app.views INFO     Запрос данных своего аккаунта id:1

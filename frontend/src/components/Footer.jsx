@@ -7,7 +7,7 @@ export default function Footer() {
       className="w-full h-[6vh] bg-[#1a1a1a] text-gray-400 text-xs flex items-center justify-around"
     >
         <div>
-          Облачное хранилище НЕТОЛОГИЯ Куделькина Н.В. 
+          Дипломная работа по курсу Fullstack-разработчик на Python, 2024
         </div>
         <Link
           to={"/siteinfo"}
@@ -15,7 +15,7 @@ export default function Footer() {
           <div
             className="underline  hover:text-gray-300"
           >
-            ОБЩАЯ ИНФОРМАЦИЯ
+            ИНФОРМАЦИЯ ПО ПРОЕКТУ
           </div>
         </Link>
     </footer>

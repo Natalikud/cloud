@@ -15,31 +15,32 @@ export default function HeaderCloud() {
 
   return (
 
-    <section
-      className="w-full h-[7vh] bg-gray-200 rounded-t-xl flex justify-between items-center"
-    >
-      <div
-        className="w-1/2 h-[6vh] ml-4 flex justify-around"
+      <section
+          className="w-full h-[7vh] bg-gray-400 rounded-t-xl flex justify-between items-center"
       >
-        {Object.keys(appData.fileButtons).map((btnName, index) => (
-          <ButtonCloudHeader
-            key={index}
-            btnName={btnName}
-            src={appData.fileButtons[btnName]}
-          />
-        ))}
-      </div>
-      <div
-        className="w-[6vh] h-[6vh] mr-4 flex items-center justify-center"
-      >
+        <div
+            className="ml-4 w-[4vh] h-[4vh] cursor-pointer hover:w-[4.1vh] hover:h-[4.1vh]"
+            onClick={handleClick}
+        >
+          <img src={cloudState.view ? "/img/tile_view.png" : "/img/list_view.png"} alt=""/>
+        </div>
 
         <div
-          className="w-[4vh] h-[4vh] cursor-pointer hover:w-[4.1vh] hover:h-[4.1vh]"
-          onClick={handleClick}
+            className="w-1/2 h-[6vh] ml-4 mt-2 flex justify-around"
         >
-          <img src={cloudState.view ? "/img/tile_view.png" : "/img/list_view.png"} alt="" />
+
+          {Object.keys(appData.fileButtons).map((btnName, index) => (
+              <ButtonCloudHeader
+                  key={index}
+                  btnName={btnName}
+                  src={appData.fileButtons[btnName]}
+              />
+          ))}
         </div>
-      </div>
-    </section>
+        <div
+            className="w-[6vh] h-[6vh] mr-4 flex items-center justify-center"
+        >
+        </div>
+      </section>
   );
 }

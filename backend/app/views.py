@@ -7,6 +7,7 @@ from django.http import FileResponse
 from rest_framework.views import APIView
 from rest_framework.parsers import MultiPartParser, FormParser
 from cryptography.fernet import Fernet
+from django.views.decorators.csrf import csrf_exempt
 from dotenv import load_dotenv
 import datetime
 import secrets
@@ -27,6 +28,8 @@ load_dotenv()
 
 # ОБЩИЕ
 # Вход в систему (аутентификация)
+
+
 @api_view(['POST'])
 @user_not_auth
 def login(request):
@@ -82,7 +85,7 @@ def get_data(request, data):
         'id': data['user'].id,
         'name': data['data'].name,
         'lastName': data['data'].last_name,
-        'avatar': f"http://localhost:8000/{data['data'].avatar.url}" if data['data'].avatar != '' else '',
+        'avatar': f"/{data['data'].avatar.url}" if data['data'].avatar != '' else '',
         'isAdmin': data['user'].is_admin,
         'email': data['user'].email,
         'files': files,
@@ -144,7 +147,7 @@ def change_self_data(request, data):
             data['data'].avatar.delete()
             data['data'].avatar = request.FILES['avatar']
             data['data'].save()
-            return Response({'avatar': f"http://localhost:8000/{data['data'].avatar.url}"}, status=201)
+            return Response({'avatar': f"/{data['data'].avatar.url}"}, status=201)
         return Response({'error': 'not valid'}, status=400)
     else:
         body = request.data
@@ -221,7 +224,7 @@ def get_url(request, fid):
         url = f"{data['user'].id}/{data['files'].get(id=fid).name}"
         key = os.getenv('URL_KEY')
         encrypt_url = encrypt(url, key)
-        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
+        return Response({'url': f'http://89.111.175.10:3000/download/{encrypt_url}'}, status=200)
     return _get_url(request)
 
 
@@ -347,7 +350,7 @@ def get_one(request, uid):
             'lastVisit': user.last_visit,
             'name': user_data.name,
             'lastName': user_data.last_name,
-            'avatar': f"http://localhost:8000/{user_data.avatar.url}" if user_data.avatar != '' else '',
+            'avatar': f"/{user_data.avatar.url}" if user_data.avatar != '' else '',
             'files': files,
         }
 
@@ -369,7 +372,7 @@ def change_one(request):
                 user_data.avatar = request.FILES['avatar']
                 user_data.save()
 
-                return Response({'avatar': f"http://localhost:8000/{user_data.avatar.url}"}, status=201)
+                return Response({'avatar': f"/{user_data.avatar.url}"}, status=201)
             return Response({'error': 'not valid'}, status=400)
         else:
             user = CloudUser.objects.get(id=request.data['id'])
@@ -456,8 +459,26 @@ def get_url_admin(request, fid):
         key = os.getenv('URL_KEY')
         encrypt_url = encrypt(url, key)
 
-        return Response({'url': f'http://localhost:3000/download/{encrypt_url}'}, status=200)
+        return Response({'url': f'http://89.111.175.10/download/{encrypt_url}'}, status=200)
     return _get_url_admin(request)
+    
+    
+    
+@api_view(['GET'])
+def download_view(request, fid):
+    @admin_auth
+    def _get_url_admin(req):
+        uid = UserFiles.objects.get(id=fid).user.id
+        logger.info(f'Админ. Получение ссылки на файл из хранилища пользователя id:{uid}.')
+        file = UserFiles.objects.get(id=fid)
+        url = f"{file.user.id}/{file.name}"
+        key = os.getenv('URL_KEY')
+        encrypt_url = encrypt(url, key)
+
+        return Response({'url': f'http://89.111.175.10/download/{encrypt_url}'}, status=200)
+    return _get_url_admin(request)   
+    
+     
 
 """@api_view(['GET'])
 @admin_auth

@@ -58,12 +58,12 @@ export default function ButtonCloudHeader({ btnName, src }) {
 
   return (
     <div
-      className="btn w-[6vh] h-[6vh] flex relative flex-col items-center justify-center cursor-pointer group"
+      className="btn w-[6vh] h-[6vh] flex relative flex-col items-center justify-center cursor-pointer"
       onClick={buttonHandlers[btnName]}
       tabIndex={-1}
     >
       <div
-        className=" w-[3vh] h-[2vh] bg-gray-200 absolute top-[1.1vh] left-[1.3vh] group-hover:bg-neutral-500 group-active:bg-black group-hover:shadow-[0_10px_30px_10px_rgba(255,255,255,0.7)]"
+        className=" w-[3vh] h-[2vh] absolute top-[1.1vh] left-[1.3vh] group-hover:bg-neutral-500 group-active:bg-black group-hover:shadow-[0_10px_30px_10px_rgba(255,255,255,0.7)]"
       >
       </div>
       <div
